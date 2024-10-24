@@ -5,7 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gabrielle Tugano's Website</title>
     <style>
-        h1, h2 {
+        h1, h2, h3 {
+            text-align: center;
+        }
+        p.centered {
             text-align: center;
         }
         /* centering the image using margin */
@@ -16,11 +19,8 @@
             max-width: 100%; /* Ensures the image resizes for smaller screens */
             height: auto;
         }
-        h3 {
-            text-align: center;
-        }
-        p {
-            text-align: center;
+        p.left-aligned {
+            text-align: left;
         }
     </style>
 
@@ -34,15 +34,19 @@
     <h2>Hello! Welcome to my website!</h2>
     <div>
         <h3>Contact Info</h3>
-        <p> Email: tugano.g@northeastern.edu<br>
+        <p class="centered"> Email: tugano.g@northeastern.edu<br>
             Phone Number: (936) 668-8300<br>
             Address: 1155 Tremont St, Roxbury, MA</p>
     </div>
     
-    </div>
 
     <!-- Centering the image using margin -->
     <img src="filo_flag.jpg" alt="Centered Image" class="centered" width="300" height="200">
+
+    <div>
+        <h3>Author's Blurb</h3>
+        <p> Howdy y'all!</p>
+    </div> 
 
     <script src='https://d3js.org/d3.v7.min.js'></script>
     <script src='templete.js'></script>   
