@@ -1,0 +1,13 @@
+body{
+    background-color:lightpink
+}
+
+.type1 {
+    text-align: center;
+}
+
+img.type1 {
+    display: block;
+    margin: 0 auto; /* This will center the image */
+}
+
