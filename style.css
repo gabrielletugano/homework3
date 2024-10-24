@@ -6,8 +6,16 @@ body{
     text-align: center;
 }
 
+.type2 {
+    text-align: left;
+}
+
 img.type1 {
     display: block;
     margin: 0 auto; /* This will center the image */
 }
 
+.image-container {
+    display: flex;
+    justify-content: space-between; /* Adjusts the space between the images */
+}
