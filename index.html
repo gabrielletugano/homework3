@@ -4,48 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gabrielle Tugano's Website</title>
-    <style>
-        h1, h2, h3 {
-            text-align: center;
-        }
-        p.centered {
-            text-align: center;
-        }
-        /* centering the image using margin */
-        img.centered {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            max-width: 100%; /* Ensures the image resizes for smaller screens */
-            height: auto;
-        }
-        p.left-aligned {
-            text-align: left;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 
 </head>
 
 
 <body>
-    <h1>About Me</h1>
-    <div id="scatterplot"></div>
+    <h1 class="type1">About Me</h1>
 
-    <h2>Hello! Welcome to my website!</h2>
+    <h2 class="type1">Hello! Welcome to my website!</h2>
     <div>
-        <h3>Contact Info</h3>
-        <p class="centered"> Email: tugano.g@northeastern.edu<br>
+        <h3 class="type1">Contact Info</h3>
+        <p class="type1"> Email: tugano.g@northeastern.edu<br>
             Phone Number: (936) 668-8300<br>
             Address: 1155 Tremont St, Roxbury, MA</p>
     </div>
     
 
     <!-- Centering the image using margin -->
-    <img src="filo_flag.jpg" alt="Centered Image" class="centered" width="300" height="200">
+    <img src="filo_flag.jpg" alt="Centered Image" class="type1" width="300" height="376">
 
     <div>
         <h3>Author's Blurb</h3>
-        <p> Howdy y'all!</p>
+        <p> Howdy y'all! Hi, I'm Gabrielle Tugano, and I’m originally from The Woodlands, Texas. 
+            I’m currently a second-year student at Northeastern University on the Boston campus, 
+            majoring in Data Science and Business Administration. Although Texas will always be home, 
+            I've really enjoyed my time in Boston, exploring the city and embracing the different seasons. 
+            Outside of my studies, I love staying active through running, hiking, and Pilates. I also have 
+            a passion for fixing vintage cameras and enjoy cooking and baking in my spare time—it’s always 
+            fun to try new recipes and create something delicious. I have two pets that keep life interesting: 
+            a Lionhead bunny named Moose and a Red Heeler cattle dog named Forest. Both are full of personality 
+            and definitely keep me on my toes! Boston has been a great place for me to grow, both academically 
+            and personally, and I'm excited to continue exploring everything this city has to offer.</p>
     </div> 
 
     <script src='https://d3js.org/d3.v7.min.js'></script>
